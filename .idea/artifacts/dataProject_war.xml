@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dataProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dataProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dataProject-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dataProject:war exploded" />
+    </root>
+  </artifact>
+</component>
