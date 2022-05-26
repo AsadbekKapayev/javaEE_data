@@ -119,5 +119,16 @@
 <a href="duplicate.do?bookId=<%=book.getId()%>">Go to duplicate</a>
 <hr/>
 <%}%>
+
+<div>
+    <%
+        Integer pageQuantity = (Integer)request.getAttribute("pageQuantity");
+        if (pageQuantity != null) {
+            for (int i = 0; i <= pageQuantity; i++) {
+                int num = i + 1;
+    %>
+    <a href="books.do?pageNum=<%=num%>"><%=num%>  </a>
+    <%}}%>
+</div>
 </body>
 </html>

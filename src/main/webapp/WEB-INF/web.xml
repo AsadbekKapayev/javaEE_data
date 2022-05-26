@@ -5,15 +5,6 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>FirstServlet</servlet-name>
-        <servlet-class>com.example.dataproject.FirstServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>FirstServlet</servlet-name>
-        <url-pattern>/first-servlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
         <servlet-name>SignInServlet</servlet-name>
         <servlet-class>com.example.dataproject.controller.SignInServlet</servlet-class>
     </servlet>
